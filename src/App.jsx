@@ -132,21 +132,39 @@ function App() {
           
           <div className="gallery-grid scroll-anim">
             <div className="gallery-item">
-              <img src="/ozeis.photo.png" alt="Cafe interior" />
+              <img src="/tampilan-depan-landscape.jpeg" alt="Tampilan Depan" />
+              <div className="gallery-overlay">
+                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Tampilan Depan</h4>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <img src="/dalam.jpeg" alt="Area Dalam" />
+              <div className="gallery-overlay">
+                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Area Dalam</h4>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <img src="/teras.jpeg" alt="Teras" />
+              <div className="gallery-overlay">
+                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Teras</h4>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <img src="/order.jpeg" alt="Area Pesan" />
+              <div className="gallery-overlay">
+                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Area Pesan</h4>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <img src="/lukisan.jpeg" alt="Sudut Seni" />
+              <div className="gallery-overlay">
+                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Sudut Seni</h4>
+              </div>
+            </div>
+            <div className="gallery-item">
+              <img src="/dalam2.jpeg" alt="Sudut Nyaman" />
               <div className="gallery-overlay">
                 <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Sudut Nyaman</h4>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="/ozeis2.png" alt="Coffee pouring" />
-              <div className="gallery-overlay">
-                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Area Kafe</h4>
-              </div>
-            </div>
-            <div className="gallery-item">
-              <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?q=80&w=1000&auto=format&fit=crop" alt="Cafe exterior" />
-              <div className="gallery-overlay">
-                <h4 style={{ color: '#fff', fontSize: '1.2rem', margin: 0 }}>Teras Terbuka</h4>
               </div>
             </div>
           </div>
